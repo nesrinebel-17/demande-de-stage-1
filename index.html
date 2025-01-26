@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos de stage</title>
+    <style>
+        /* Réinitialisation */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background: #E6CCFF; /* Mauve clair */
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            font-size: 20px;
+            font-weight: bold;
+            color: #6A0572; /* Bleu violet foncé */
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #6A0572; /* Bleu violet */
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #FF69B4; /* Rose */
+        }
+
+        /* Section À propos */
+        .about {
+            max-width: 1000px;
+            margin: 100px auto;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .about-text {
+            flex: 1;
+        }
+
+        .about-text h2 {
+            font-size: 28px;
+            color: #6A0572; /* Bleu violet */
+            margin-bottom: 10px;
+        }
+
+        .about-text h3 {
+            font-size: 24px;
+            color: #262E6B; /* Bleu foncé */
+            margin-bottom: 10px;
+        }
+
+        .about-text p {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .about img {
+            width: 400px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>GESTION DES STAGES</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Vous êtes</a></li>
+                <li><a href="#">Admin</a></li>
+                <li><a href="#">Entreprise</a></li>
+                <li><a href="#">condidat</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="btn">Commencer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about">
+        <div class="about-text">
+            <h2>À PROPOS</h2>
+            <h3>À PROPOS DE STAGE</h3>
+            <p>
+                Le projet de fin d’étude (PFE) sert avant toute chose à mettre un pied dans le monde de l’entreprise.
+                En effet, ces six mois en moyenne de stage font office de transition entre la vie étudiante et la vie active.
+                C’est pourquoi il est important de bien le choisir ! 
+                Le stage de fin d’études a la vocation de développer chez le stagiaire des savoir-faire et des savoir-être essentiels pour son avenir professionnel.
+            </p>
+            <p>
+                ✅ Le PFE et le stage de fin d’études recouvrent une même réalité. Il s’agit d’une période déterminée durant laquelle l’étudiant rejoint une entreprise afin de réaliser un projet. 
+                Le PFE marque la fin du cursus en école d’ingénieur ou à l’université.
+            </p>
+        </div>
+        <img src="https://source.unsplash.com/400x300/?office,students" alt="Étudiants en stage">
+    </section>
+    
+
+</body>
+</html>
